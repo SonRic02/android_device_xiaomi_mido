@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
+# Signed
+$(call inherit-product, vendor/sonric-keys/product.mk)
+
 # Flags
 INFINITY_BUILD_TYPE := Community
 INFINITY_MAINTAINER := SonRic
